@@ -3,42 +3,19 @@
 This repository contains the companion Android application for the tCam cameras.  It communicates with the cameras via a network connection using their json packet command set.  It provides functionality to control the cameras, download and display data from them and analyze the radiometric data.
 
 * Get a current image.
-* Stream images from a connected camera at various rates.
 * Control remote picture and video recording and download images from the camera's local storage (tCam only).
 * Save and load radiometric image files.
-* Save and load radiometric video (stream) files.
 * Export radiometric data as a common format image file.
-* Graph temperature at up to five points from a stream or video file.
-* Update camera firmware (tCam-Mini requires FW 2.0 and beyond).
 * Discover cameras on the local network (requires tCam-Mini FW 3.0 and beyond)
 
-The application is developed using the [xojo](https://www.xojo.com) development environment.  64-bit binary images are provided for Mac OS X, Windows and x86 Linux systems.  A 32-bit binary image is provided for Raspbian or other ARM7HF Linux SBCs.  Download the zip file for your platform.  The application can be run directly from the unzipped directory by double clicking the application binary icon.
-
-Note: Zip files for each application platform can be downloaded directly from my [website](http://danjuliodesigns.com/products/tcam_mini.html) as well if you don't want to clone this entire repository.
+The application is developed using the Android Studio development environment.
 
 #### Version History
 The latest version release notes are shown here.  Please see the ```release_notes.pdf``` file for notes from previous versions.
 
-Version 3.1.0
+Version 0.24
 
-1.	Support 63 character WiFi passwords with all tCam firmware and tCam-Mini firmware 3.1 and beyond
-2. Disabled Graph when connected to a camera with a Lepton 3.0
-3. Display “RAW” and “AGC” in color palette bar when connected to a camera with a Lepton 3.0
-4. Worked around Xojo bug where pull-down menus didn't work properly in Linux builds (starting with
-version 3.0.0)
-
-#### Platform Caveats
-
-1. The Mac version should now be signed and is delivered as a Universal installer package.  Let me know if you have any trouble.
-2. You may need to make the Linux application file executable.
-3. You may also have to authorize the application on the Windows platform since I don't yet package it for distribution in their online stores.
-4. Windows users may need to install support for Bonjour (mDNS) using the ```bonjoursdksetup.exe``` installer from Apple found here.
-5. Different Linux desktop systems render the toolbar differently and all toolbar items aren't visible since Linux renders the text next to the icon instead of beneath it.  You can make the window wider to expose some important controls like Stream that has sub-menus or you can use the pull-down menus at the top of the window.
-6. Linux users may need to install ```libwebkit2gtk``` to view the built-in documentation.
-7. The Raspberry Pi versions basically require a Pi 4 to display a stream at the full rate.  On slower Pi models the application may not be able to keep up and the controls may become unresponsive when streaming at the full ~9 FPS rate.
-
-An advance apology - I develop on my Mac and do quick tests on Windows 7 and 10, and Ubuntu, Kubuntu and Raspbian.  Although xojo provides pretty good cross-platform compatibility for OS X and Windows, sometimes there are issues with Linux.  If you find some other issue, please let me know and I'll try to fix it.
-
+1. Display “RAW” and “AGC” in color palette bar when connected to a camera with a Lepton 3.0
 
 ### Main Window
 ![Main Window](pictures/main_window_identified.png)
