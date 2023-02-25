@@ -7,7 +7,7 @@ This is an alpha release, designed for early testing. It may have bugs and you a
 Streaming is broken in this release. It works but only in fits-and-spurts.  It's gonna be fixed :-)
 
 ### Installation
-The app has to be side-loaded into your Android phone.  Basically you have to get the phone into Developer Mode (usually found somewhere like Settings->System), then load the file into the phone and manually install it.
+The app APK file has to be installed into your Android phone by opening it.  You may get a warning since you are doing this outside of the Play Store official installation process. To get around this warning you must enable "Install unknown apps" in Advanced Settings for the browser you use to download the APK. Usually the browser will prompt you to go to this setting after you download the APK file and attempt to open it.  Note that this is a security hole and you should probably disable this setting after installing the app.
 
 ### Operation
 The app has three screens.
