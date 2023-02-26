@@ -11,7 +11,7 @@ This is an alpha release, designed for early testing. It may have issues and you
 ### Installation
 The tCamViewer can be installed directly from the invitation email that you received when you requested participation in the Alpha Testing Program.  The following video shows how to install the application from the email that you received. Your particular Android phone may varying in the dialogs, etc. that are shown in the video, but the overall procedure should be the same.
 
-[Installation Video](videos/tcam_install.mkv) 
+[Installation Video](videos/tcam_install.mov) 
 
 ### Operation
 The app has four screens.
