@@ -5,12 +5,13 @@ This repository contains the Alpha Testing Version of the tCamViewer for Android
 This is an alpha release, designed for early testing. It may have issues and you are encouraged to use the Github issues tracker to log them. Also any suggestions on how the application may be improved are appreciated  
 
 ### Known Issues
-1. If the camera becomes disconnected from the application, the user needs to maually disconnect and connect from the menu to re-establish the connection
+1. If the camera becomes disconnected from the application, the user needs to manually disconnect and connect from the menu to re-establish the connection
+2. There is a known issue with older phones where the WiFi radio competes with the Bluetooth radio, if streaming appears sporadic, try turning off bluetooth on the phone
 
 ### Installation
 The tCamViewer can be installed directly from the invitation email that you received when you requested participation in the Alpha Testing Program.  The following video shows how to install the application from the email that you received. Your particular Android phone may varying in the dialogs, etc. that are shown in the video, but the overall procedure should be the same.
 
-https://user-images.githubusercontent.com/589331/221420834-ada5d647-df58-4461-8c1c-33f3b580cb60.mov
+[Installation Video](videos/tcam_install.mov)
 
 ### Operation
 The app has four screens.
