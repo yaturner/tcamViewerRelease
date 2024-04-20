@@ -1,10 +1,10 @@
 # tCamViewer Operating Instructions
 Version 1.0
 
-tCamViewer is an Android app designed to connect to the tCam and tCam-Mini thermal imaging cameras designed by [danjuliodesigns, LLC](www.danjuliodesigns.com) and available from [Group Gets](www.groupgets.com).
+tCamViewer is an Android app designed to connect to the tCam and tCam-Mini thermal imaging cameras designed by [danjuliodesigns, LLC](https://www.danjuliodesigns.com) and available from [Group Gets](https://www.groupgets.com).
 
 ## Installation
-The app may be installed from the [Google Play Store](play.google.com) or through side loading. To side load an application the phone must have developer mode enabled and allow unknown applications to be installed. These settings are phone dependent, please check your phone's user manual for specific instructions of how to do this. 
+The app may be installed from the [Google Play Store](https://play.google.com/store/apps/details?id=com.danjuliodesigns.tcamViewer) or through side loading. To side load an application the phone must have developer mode enabled and allow unknown applications to be installed. These settings are phone dependent, please check your phone's user manual for specific instructions of how to do this. 
 
 ## Operation
 Operation of the app is controlled by three main screens.
@@ -203,4 +203,3 @@ Click the sharing button on the Browse screen to share the file.
 1. *Share* : Converts the file to a named jpg and shares it using the Android share mechanism allowing sending by email or sharing with other applications.  The first image in a video file is converted as the jpg image.
 2. *Export* : Converts an image file to a jpg file and stores it in the camera's photos directory.  Converts a video file to a mp4 file and stores it in the camera's movie directory.  Video conversion may take some time, depending on the size of the video file, and a dialog box is displayed during the conversion.
 3. *Export Raw* : Saves the .tjsn or .tmjsn raw image files to a directory on the phone.  A file dialog box is displayed allowing changing the file name and selecting the destination directory.
-
