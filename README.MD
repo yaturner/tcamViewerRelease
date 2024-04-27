@@ -3,6 +3,8 @@ Version 1.0
 
 tCamViewer is an Android app designed to connect to the tCam and tCam-Mini thermal imaging cameras designed by [danjuliodesigns, LLC](https://www.danjuliodesigns.com) and available from [Group Gets](https://www.groupgets.com).
 
+Source code can be found [here](https://github.com/yaturner/tcamViewer-DanJulio).
+
 ## Installation
 The app may be installed from the [Google Play Store](https://play.google.com/store/apps/details?id=com.danjuliodesigns.tcamViewer) or through side loading. To side load an application the phone must have developer mode enabled and allow unknown applications to be installed. These settings are phone dependent, please check your phone's user manual for specific instructions of how to do this. 
 
